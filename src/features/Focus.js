@@ -34,12 +34,12 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     padding: spacing.lg,
-    justifyContent: 'top',
-    alignItems: 'center',
+    justifyContent: 'flex-start',
+    alignItems: 'center'
   },
   textInput: {
     flex: 1,
-    marginRight: spacing.sm,
+    marginRight: spacing.sm
   },
-  button: {},
+  button: {}
 });
